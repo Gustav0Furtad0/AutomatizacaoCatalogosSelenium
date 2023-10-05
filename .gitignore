@@ -2,4 +2,5 @@ browser/
 data/
 dump/
 venv/
-*pycache
+*__pycache__/
+chromedriver.exe
