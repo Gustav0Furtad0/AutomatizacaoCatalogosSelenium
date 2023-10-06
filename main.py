@@ -53,4 +53,10 @@ navigator.get("https://juizdefora.branetlogistica.com.br/doms/")
 
 navigator.wait_response("Entre no catálogo que deseja fazer a modificações e pressione ENTER")
 
-ChangeCatalogInSystem(navigator)
+ChangeCatalogInSystem(navigator, \
+    "data/{}".format(filePrefeitura["fName"]), \
+    filePrefeitura["colunaQuantidade"], \
+    filePrefeitura["ixTabela"], \
+    filePrefeitura["colunaNomeCliente"], \
+    filePrefeitura["colunaUnidade"], \
+    filePrefeitura["colunaCodCliente"])

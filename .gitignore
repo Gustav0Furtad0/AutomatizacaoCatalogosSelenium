@@ -4,3 +4,7 @@ dump/
 venv/
 *__pycache__/
 chromedriver.exe
+*.xlsx
+*.ods
+*.csv
+*.txt
