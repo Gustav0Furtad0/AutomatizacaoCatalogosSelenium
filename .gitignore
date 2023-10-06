@@ -8,3 +8,4 @@ chromedriver.exe
 *.ods
 *.csv
 *.txt
+!requirements.txt

@@ -49,7 +49,9 @@ while True:
 
 navigator = Browser()
 
-navigator.get("https://juizdefora.branetlogistica.com.br/doms/")
+endereco_site = "SITE A SER ACESSADO"
+
+navigator.get(endereco_site)
 
 navigator.wait_response("Entre no catálogo que deseja fazer a modificações e pressione ENTER")
 
